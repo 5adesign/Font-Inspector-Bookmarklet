@@ -189,7 +189,7 @@ function bypassStretched() {
 var s = document.createElement('style');
 s.id = 'fi-style';
 s.textContent =
-  '#fi-tooltip{position:fixed;z-index:999999;background:#1a1a2e;color:#fff;font:13px/1.4 monospace;padding:8px 12px;border-radius:4px;pointer-events:none;display:none;max-width:520px;box-shadow:0 2px 8px rgba(0,0,0,.3)}' +
+  '#fi-tooltip{position:fixed;z-index:999999;background:#1a1a2e;color:#fff;font:13px/1.4 monospace;padding:8px 12px;border-radius:4px;pointer-events:none;display:none;max-width:min(520px, calc(100vw - 48px));;box-shadow:0 2px 8px rgba(0,0,0,.3)}' +
   '#fi-tooltip b{color:#e94560}' +
   '#fi-tooltip span.rem{color:#53d8fb}' +
   '#fi-tooltip span.ratio{color:#0ead69}' +
