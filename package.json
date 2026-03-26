@@ -1,0 +1,15 @@
+{
+  "name": "font-inspector-bookmarklet",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "description": "Bookmarklet to inspect typography and layout properties on any webpage.",
+  "scripts": {
+    "build": "node scripts/build-bookmarklet.js",
+    "watch": "node scripts/watch-bookmarklet.js",
+    "dev": "node scripts/watch-bookmarklet.js"
+  },
+  "devDependencies": {
+    "terser": "^5.39.0"
+  }
+}

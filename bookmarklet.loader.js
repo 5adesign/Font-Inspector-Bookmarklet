@@ -1,0 +1,1 @@
+javascript:(function(){var d=document,s=d.getElementById('fi-loader');if(s)s.remove();s=d.createElement('script');s.id='fi-loader';s.src='https://cdn.jsdelivr.net/gh/5adesign/Font-Inspector-Bookmarklet@main/font-inspector.runtime.js?t='+Date.now();(d.head||d.body||d.documentElement).appendChild(s)}())
